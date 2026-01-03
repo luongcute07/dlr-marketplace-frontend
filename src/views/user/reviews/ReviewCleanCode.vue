@@ -133,7 +133,7 @@ const book = {
   title: "Clean Code",
   author: "Robert C. Martin",
   rating: 4.7,
-  image: "https://via.placeholder.com/400x550",
+  image: "https://tse4.mm.bing.net/th/id/OIP.FA5ungQBjbfjgGe_IiZ2nAHaEK?pid=Api&h=220&P=0",
   shortDesc:
     "Cuốn sách kinh điển giúp lập trình viên viết code dễ đọc, dễ bảo trì và chuyên nghiệp hơn.",
   review:
@@ -155,17 +155,17 @@ const relatedBooks = [
   {
     id: 2,
     title: "Refactoring",
-    image: "https://via.placeholder.com/300x420",
+    image: "http://www.informit.com/ShowCover.aspx?isbn=0201485672",
   },
   {
     id: 3,
     title: "The Pragmatic Programmer",
-    image: "https://via.placeholder.com/300x420",
+    image: "http://www.informit.com/ShowCover.aspx?isbn=0201485672",
   },
   {
     id: 4,
     title: "Design Patterns",
-    image: "https://via.placeholder.com/300x420",
+    image: "http://www.informit.com/ShowCover.aspx?isbn=0201485672",
   },
 ]
 </script>

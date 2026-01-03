@@ -42,7 +42,7 @@
               </p>
 
               <router-link
-                :to="`/review/${post.slug}`"
+                :to="`reviews/${post.slug}`"
                 class="btn btn-outline-primary btn-sm mt-2"
               >
                 Đọc review →
@@ -60,9 +60,9 @@ const reviews = [
   {
     id: 1,
     title: "Review sách Clean Code – Có đáng đọc cho lập trình viên?",
-    slug: "review-clean-code",
+    slug: "reviews-clean-code",
     category: "Lập trình",
-    image: "https://via.placeholder.com/400x250",
+    image: "https://tse3.mm.bing.net/th/id/OIP.ZfYHb383Tk0kUMP-XsfWegHaJI?pid=Api&h=220&P=0",
     excerpt:
       "Clean Code là cuốn sách kinh điển giúp lập trình viên viết code sạch, dễ đọc và dễ bảo trì. Nhưng liệu có phù hợp cho người mới?"
   },
@@ -71,7 +71,7 @@ const reviews = [
     title: "Review Atomic Habits – Thay đổi thói quen có thật sự hiệu quả?",
     slug: "review-atomic-habits",
     category: "Phát triển bản thân",
-    image: "https://via.placeholder.com/400x250",
+    image: "https://cdn2.penguin.com.au/covers/original/9781473565425.jpg",
     excerpt:
       "Atomic Habits hướng dẫn cách thay đổi thói quen nhỏ để tạo ra kết quả lớn. Cuốn sách này phù hợp với ai?"
   },
@@ -80,7 +80,7 @@ const reviews = [
     title: "Review Deep Work – Bí quyết tập trung sâu trong thời đại xao nhãng",
     slug: "review-deep-work",
     category: "Kỹ năng",
-    image: "https://via.placeholder.com/400x250",
+    image: "https://i0.wp.com/readingraphics.com/wp-content/uploads/2019/02/Deep-Work-Book-Summary-Cover-2.png?w=2480&ssl=1",
     excerpt:
       "Deep Work giúp bạn rèn luyện khả năng tập trung cao độ để làm việc hiệu quả hơn trong thế giới nhiều xao nhãng."
   },

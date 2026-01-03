@@ -338,7 +338,7 @@ export default {
   background: linear-gradient(135deg, #0d6efd, #4f8dfd);
 }
 
-<style scoped > .book-card {
+  .book-card {
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease;

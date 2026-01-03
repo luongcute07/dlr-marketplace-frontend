@@ -3,9 +3,11 @@
     <!-- HERO -->
     <section class="about-hero text-white text-center">
       <div class="container">
-        <h1 class="fw-bold mb-3">LearnBooks</h1>
+        <h1 class="fw-bold mb-3">
+          Giới thiệu LearnBooks – Website review & giới thiệu sách học tập chất lượng
+        </h1>
         <p class="lead mb-0">
-          Nền tảng giới thiệu sách & tài liệu học tập chọn lọc – học nhanh, đúng trọng tâm
+          Nền tảng chọn lọc sách hay cho lập trình, thiết kế, marketing & phát triển bản thân
         </p>
       </div>
     </section>
@@ -13,18 +15,26 @@
     <!-- INTRO -->
     <section class="py-5">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-10 text-center">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
             <h2 class="fw-bold mb-4">LearnBooks là gì?</h2>
             <p class="text-muted fs-5">
-              <strong>LearnBooks</strong> là website giới thiệu và đề xuất
-              <strong>sách & tài liệu học tập chất lượng</strong> dành cho sinh viên
-              và người đi làm.
+              <strong>LearnBooks</strong> là website chuyên
+              <strong>giới thiệu & review sách học tập chất lượng</strong>
+              dành cho sinh viên và người đi làm.
               <br /><br />
-              Thay vì mất thời gian tìm kiếm lan man,
-              LearnBooks giúp bạn <strong>tiếp cận nhanh những cuốn sách tốt nhất</strong>
-              theo từng lĩnh vực như lập trình, thiết kế, marketing, ngoại ngữ…
+              Chúng tôi giúp bạn <strong>chọn đúng sách – học đúng trọng tâm</strong>
+              trong các lĩnh vực như lập trình, thiết kế, marketing, ngoại ngữ
+              và phát triển bản thân.
             </p>
+          </div>
+
+          <div class="col-lg-6 text-center">
+            <img
+              src="https://images.unsplash.com/photo-1512820790803-83ca734da794"
+              alt="Sách học tập và phát triển bản thân"
+              class="img-fluid rounded shadow"
+            />
           </div>
         </div>
       </div>
@@ -41,10 +51,10 @@
             <div class="card h-100 shadow-sm text-center">
               <div class="card-body">
                 <i class="bi bi-book-half display-4 text-primary mb-3"></i>
-                <h5 class="fw-bold mb-3">Sách chọn lọc</h5>
+                <h3 class="h5 fw-bold mb-3">Sách chọn lọc</h3>
                 <p class="text-muted">
                   Chỉ giới thiệu những cuốn sách được đánh giá cao,
-                  phù hợp cho việc học tập và phát triển kỹ năng.
+                  phù hợp cho học tập & phát triển kỹ năng.
                 </p>
               </div>
             </div>
@@ -54,7 +64,7 @@
             <div class="card h-100 shadow-sm text-center">
               <div class="card-body">
                 <i class="bi bi-lightning-charge display-4 text-primary mb-3"></i>
-                <h5 class="fw-bold mb-3">Tiết kiệm thời gian</h5>
+                <h3 class="h5 fw-bold mb-3">Tiết kiệm thời gian</h3>
                 <p class="text-muted">
                   Không cần đọc review lan man,
                   LearnBooks giúp bạn chọn sách đúng ngay từ đầu.
@@ -66,11 +76,11 @@
           <div class="col-md-4">
             <div class="card h-100 shadow-sm text-center">
               <div class="card-body">
-                <i class="bi bi-laptop display-4 text-primary mb-3"></i>
-                <h5 class="fw-bold mb-3">Học mọi lúc</h5>
+                <i class="bi bi-link-45deg display-4 text-primary mb-3"></i>
+                <h3 class="h5 fw-bold mb-3">Link mua uy tín</h3>
                 <p class="text-muted">
-                  Truy cập sách dễ dàng trên mọi thiết bị,
-                  học tập linh hoạt theo thời gian của bạn.
+                  Dẫn link mua sách từ các nền tảng uy tín
+                  như Amazon, Shopee, Tiki.
                 </p>
               </div>
             </div>
@@ -86,73 +96,12 @@
           LearnBooks hoạt động như thế nào?
         </h2>
         <div class="row text-center g-4">
-          <div class="col-md-3">
+          <div class="col-md-3" v-for="(step, i) in steps" :key="i">
             <div class="step-box shadow-sm">
-              <i class="bi bi-search fs-1 text-primary"></i>
-              <span class="step-number">1</span>
-              <p class="fw-semibold mt-3">Tìm sách</p>
-              <p class="text-muted">Duyệt theo danh mục hoặc tìm kiếm</p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="step-box shadow-sm">
-              <i class="bi bi-star fs-1 text-primary"></i>
-              <span class="step-number">2</span>
-              <p class="fw-semibold mt-3">Xem đánh giá</p>
-              <p class="text-muted">Đọc mô tả & gợi ý chi tiết</p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="step-box shadow-sm">
-              <i class="bi bi-link-45deg fs-1 text-primary"></i>
-              <span class="step-number">3</span>
-              <p class="fw-semibold mt-3">Mua sách</p>
-              <p class="text-muted">Chuyển đến nền tảng bán sách</p>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="step-box shadow-sm">
-              <i class="bi bi-book fs-1 text-primary"></i>
-              <span class="step-number">4</span>
-              <p class="fw-semibold mt-3">Đọc & học</p>
-              <p class="text-muted">Bắt đầu hành trình học tập</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- TARGET USERS -->
-    <section class="bg-light py-5">
-      <div class="container">
-        <h2 class="fw-bold text-center mb-5">
-          LearnBooks dành cho ai?
-        </h2>
-        <div class="row g-4">
-          <div class="col-md-6">
-            <div class="card h-100 shadow-sm">
-              <div class="card-body">
-                <i class="bi bi-mortarboard fs-2 text-primary mb-2"></i>
-                <h5 class="fw-bold">Sinh viên</h5>
-                <p class="text-muted">
-                  Cần sách học tập, ôn thi, đồ án và chuẩn bị đi thực tập.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="card h-100 shadow-sm">
-              <div class="card-body">
-                <i class="bi bi-briefcase fs-2 text-primary mb-2"></i>
-                <h5 class="fw-bold">Người đi làm</h5>
-                <p class="text-muted">
-                  Muốn nâng cao kỹ năng, học nhanh kiến thức phục vụ công việc.
-                </p>
-              </div>
+              <i :class="step.icon" class="fs-1 text-primary"></i>
+              <span class="step-number">{{ i + 1 }}</span>
+              <p class="fw-semibold mt-3">{{ step.title }}</p>
+              <p class="text-muted">{{ step.desc }}</p>
             </div>
           </div>
         </div>
@@ -162,12 +111,14 @@
     <!-- CTA -->
     <section class="cta-section text-white text-center py-5">
       <div class="container">
-        <h2 class="fw-bold mb-3">Bắt đầu học tập hiệu quả ngay hôm nay</h2>
+        <h2 class="fw-bold mb-3">
+          Khám phá những cuốn sách hay nhất cho hành trình học tập của bạn
+        </h2>
         <p class="mb-4">
-          Khám phá những cuốn sách hay nhất được LearnBooks đề xuất
+          Review sách lập trình, thiết kế, marketing & phát triển bản thân
         </p>
         <router-link to="/" class="btn btn-light btn-lg fw-semibold">
-          Khám phá sách ngay
+          Xem sách nổi bật
         </router-link>
       </div>
     </section>
@@ -177,40 +128,41 @@
 <script>
 export default {
   name: "About",
+  mounted() {
+    document.title =
+      "Giới thiệu LearnBooks – Website review & giới thiệu sách học tập chất lượng";
+    document
+      .querySelector('meta[name="description"]')
+      ?.setAttribute(
+        "content",
+        "LearnBooks là website giới thiệu và review sách học tập chất lượng cho sinh viên và người đi làm: lập trình, thiết kế, marketing, phát triển bản thân."
+      );
+  },
+  data() {
+    return {
+      steps: [
+        {
+          icon: "bi bi-search",
+          title: "Tìm sách",
+          desc: "Duyệt theo danh mục hoặc tìm kiếm",
+        },
+        {
+          icon: "bi bi-star",
+          title: "Đọc review",
+          desc: "Xem đánh giá chi tiết",
+        },
+        {
+          icon: "bi bi-link-45deg",
+          title: "Mua sách",
+          desc: "Chuyển sang nền tảng bán sách",
+        },
+        {
+          icon: "bi bi-book",
+          title: "Học tập",
+          desc: "Áp dụng kiến thức vào thực tế",
+        },
+      ],
+    };
+  },
 };
 </script>
-
-<style scoped>
-.about-hero {
-  background: linear-gradient(135deg, #0d6efd, #4f8dfd);
-  padding: 90px 0;
-}
-
-.step-box {
-  background: #ffffff;
-  border-radius: 14px;
-  padding: 28px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.step-box:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
-}
-
-.step-number {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background: #0d6efd;
-  color: #fff;
-  border-radius: 50%;
-  line-height: 40px;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-.cta-section {
-  background: linear-gradient(135deg, #0d6efd, #4f8dfd);
-}
-</style>

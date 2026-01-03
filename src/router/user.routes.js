@@ -10,7 +10,7 @@ export default {
    { path: 'forgot-password', component: () => import('@/views/user/ForgotPassword.vue') },
    { path: 'about', component: () => import('@/views/user/About.vue') },
    { path: 'review-list', component: () => import('@/views/user/reviews/ReviewList.vue') },
-    { path: 'review-book', component: () => import('@/views/user/reviews/ReviewCleanCode.vue') },
+   { path: 'reviews/:slug', component: () => import('@/views/user/reviews/ReviewCleanCode.vue') },
 
    { path: 'popular-books', component: () => import('@/views/user/PopularBooks.vue') },
    { path: 'book/:id', component: () => import('@/views/user/BookDetail.vue') },
