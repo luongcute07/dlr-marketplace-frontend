@@ -1,13 +1,11 @@
 <template>
   <div class="about-page">
     <!-- HERO -->
-    <section class="about-hero text-white">
-      <div class="container text-center">
-        <h1 class="fw-bold mb-3">
-          Digital Learning Resource Marketplace
-        </h1>
+    <section class="about-hero text-white text-center">
+      <div class="container">
+        <h1 class="fw-bold mb-3">LearnBooks</h1>
         <p class="lead mb-0">
-          Nền tảng mua bán tài liệu học tập số – Giải pháp học nhanh, đúng trọng tâm
+          Nền tảng giới thiệu sách & tài liệu học tập chọn lọc – học nhanh, đúng trọng tâm
         </p>
       </div>
     </section>
@@ -17,15 +15,15 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10 text-center">
-            <h2 class="fw-bold mb-4">DLR Marketplace là gì?</h2>
+            <h2 class="fw-bold mb-4">LearnBooks là gì?</h2>
             <p class="text-muted fs-5">
-              <strong>Digital Learning Resource Marketplace</strong> là nền tảng
-              thương mại điện tử chuyên cung cấp các <strong>tài liệu học tập số (PDF)</strong>
-              dành cho sinh viên và người đi làm.
+              <strong>LearnBooks</strong> là website giới thiệu và đề xuất
+              <strong>sách & tài liệu học tập chất lượng</strong> dành cho sinh viên
+              và người đi làm.
               <br /><br />
-              Thay vì mất hàng giờ tìm kiếm tài liệu rời rạc trên internet,
-              người dùng có thể <strong>mua – tải – sử dụng</strong> các tài liệu
-              đã được chọn lọc, biên soạn ngắn gọn và đúng trọng tâm chỉ trong vài phút.
+              Thay vì mất thời gian tìm kiếm lan man,
+              LearnBooks giúp bạn <strong>tiếp cận nhanh những cuốn sách tốt nhất</strong>
+              theo từng lĩnh vực như lập trình, thiết kế, marketing, ngoại ngữ…
             </p>
           </div>
         </div>
@@ -35,15 +33,18 @@
     <!-- WHY CHOOSE -->
     <section class="bg-light py-5">
       <div class="container">
-        <h2 class="fw-bold text-center mb-5">Vì sao nên chọn DLR Marketplace?</h2>
+        <h2 class="fw-bold text-center mb-5">
+          Vì sao nên chọn LearnBooks?
+        </h2>
         <div class="row g-4">
           <div class="col-md-4">
             <div class="card h-100 shadow-sm text-center">
               <div class="card-body">
-                <h5 class="fw-bold mb-3">Tài liệu chọn lọc</h5>
+                <i class="bi bi-book-half display-4 text-primary mb-3"></i>
+                <h5 class="fw-bold mb-3">Sách chọn lọc</h5>
                 <p class="text-muted">
-                  Tài liệu được phân loại rõ ràng theo môn học, kỹ năng và lĩnh vực,
-                  giúp người học tiếp cận đúng nội dung mình cần.
+                  Chỉ giới thiệu những cuốn sách được đánh giá cao,
+                  phù hợp cho việc học tập và phát triển kỹ năng.
                 </p>
               </div>
             </div>
@@ -52,10 +53,11 @@
           <div class="col-md-4">
             <div class="card h-100 shadow-sm text-center">
               <div class="card-body">
-                <h5 class="fw-bold mb-3">Học nhanh – đúng trọng tâm</h5>
+                <i class="bi bi-lightning-charge display-4 text-primary mb-3"></i>
+                <h5 class="fw-bold mb-3">Tiết kiệm thời gian</h5>
                 <p class="text-muted">
-                  Nội dung được biên soạn ngắn gọn, tập trung vào kiến thức cốt lõi,
-                  phù hợp với sinh viên và người đi làm bận rộn.
+                  Không cần đọc review lan man,
+                  LearnBooks giúp bạn chọn sách đúng ngay từ đầu.
                 </p>
               </div>
             </div>
@@ -64,10 +66,11 @@
           <div class="col-md-4">
             <div class="card h-100 shadow-sm text-center">
               <div class="card-body">
-                <h5 class="fw-bold mb-3">Mua và tải ngay</h5>
+                <i class="bi bi-laptop display-4 text-primary mb-3"></i>
+                <h5 class="fw-bold mb-3">Học mọi lúc</h5>
                 <p class="text-muted">
-                  Quy trình mua đơn giản, thanh toán nhanh chóng,
-                  tải tài liệu ngay sau khi hoàn tất giao dịch.
+                  Truy cập sách dễ dàng trên mọi thiết bị,
+                  học tập linh hoạt theo thời gian của bạn.
                 </p>
               </div>
             </div>
@@ -79,45 +82,43 @@
     <!-- HOW IT WORKS -->
     <section class="py-5">
       <div class="container">
-        <h2 class="fw-bold text-center mb-5">Cách hoạt động</h2>
+        <h2 class="fw-bold text-center mb-5">
+          LearnBooks hoạt động như thế nào?
+        </h2>
         <div class="row text-center g-4">
           <div class="col-md-3">
             <div class="step-box shadow-sm">
+              <i class="bi bi-search fs-1 text-primary"></i>
               <span class="step-number">1</span>
-              <p class="fw-semibold mt-3">Tìm tài liệu</p>
-              <p class="text-muted">
-                Duyệt theo danh mục hoặc tìm kiếm theo từ khóa
-              </p>
+              <p class="fw-semibold mt-3">Tìm sách</p>
+              <p class="text-muted">Duyệt theo danh mục hoặc tìm kiếm</p>
             </div>
           </div>
 
           <div class="col-md-3">
             <div class="step-box shadow-sm">
+              <i class="bi bi-star fs-1 text-primary"></i>
               <span class="step-number">2</span>
-              <p class="fw-semibold mt-3">Mua tài liệu</p>
-              <p class="text-muted">
-                Thêm vào giỏ hàng và tiến hành thanh toán
-              </p>
+              <p class="fw-semibold mt-3">Xem đánh giá</p>
+              <p class="text-muted">Đọc mô tả & gợi ý chi tiết</p>
             </div>
           </div>
 
           <div class="col-md-3">
             <div class="step-box shadow-sm">
+              <i class="bi bi-link-45deg fs-1 text-primary"></i>
               <span class="step-number">3</span>
-              <p class="fw-semibold mt-3">Thanh toán</p>
-              <p class="text-muted">
-                Thanh toán an toàn, minh bạch
-              </p>
+              <p class="fw-semibold mt-3">Mua sách</p>
+              <p class="text-muted">Chuyển đến nền tảng bán sách</p>
             </div>
           </div>
 
           <div class="col-md-3">
             <div class="step-box shadow-sm">
+              <i class="bi bi-book fs-1 text-primary"></i>
               <span class="step-number">4</span>
-              <p class="fw-semibold mt-3">Tải & học</p>
-              <p class="text-muted">
-                Tải file PDF và sử dụng ngay
-              </p>
+              <p class="fw-semibold mt-3">Đọc & học</p>
+              <p class="text-muted">Bắt đầu hành trình học tập</p>
             </div>
           </div>
         </div>
@@ -127,14 +128,17 @@
     <!-- TARGET USERS -->
     <section class="bg-light py-5">
       <div class="container">
-        <h2 class="fw-bold text-center mb-5">Ai nên sử dụng DLR Marketplace?</h2>
+        <h2 class="fw-bold text-center mb-5">
+          LearnBooks dành cho ai?
+        </h2>
         <div class="row g-4">
           <div class="col-md-6">
             <div class="card h-100 shadow-sm">
               <div class="card-body">
+                <i class="bi bi-mortarboard fs-2 text-primary mb-2"></i>
                 <h5 class="fw-bold">Sinh viên</h5>
                 <p class="text-muted">
-                  Cần tài liệu học tập, ôn thi, làm đồ án và chuẩn bị đi thực tập.
+                  Cần sách học tập, ôn thi, đồ án và chuẩn bị đi thực tập.
                 </p>
               </div>
             </div>
@@ -143,9 +147,10 @@
           <div class="col-md-6">
             <div class="card h-100 shadow-sm">
               <div class="card-body">
+                <i class="bi bi-briefcase fs-2 text-primary mb-2"></i>
                 <h5 class="fw-bold">Người đi làm</h5>
                 <p class="text-muted">
-                  Muốn bổ sung kiến thức nhanh để nâng cao kỹ năng và hiệu suất công việc.
+                  Muốn nâng cao kỹ năng, học nhanh kiến thức phục vụ công việc.
                 </p>
               </div>
             </div>
@@ -157,12 +162,12 @@
     <!-- CTA -->
     <section class="cta-section text-white text-center py-5">
       <div class="container">
-        <h2 class="fw-bold mb-3">Học tập hiệu quả bắt đầu từ tài liệu đúng</h2>
+        <h2 class="fw-bold mb-3">Bắt đầu học tập hiệu quả ngay hôm nay</h2>
         <p class="mb-4">
-          Khám phá ngay kho tài liệu học tập số tại DLR Marketplace
+          Khám phá những cuốn sách hay nhất được LearnBooks đề xuất
         </p>
-        <router-link to="/documents" class="btn btn-light btn-lg fw-semibold">
-          Xem tài liệu ngay
+        <router-link to="/" class="btn btn-light btn-lg fw-semibold">
+          Khám phá sách ngay
         </router-link>
       </div>
     </section>
@@ -178,13 +183,19 @@ export default {
 <style scoped>
 .about-hero {
   background: linear-gradient(135deg, #0d6efd, #4f8dfd);
-  padding: 80px 0;
+  padding: 90px 0;
 }
 
 .step-box {
   background: #ffffff;
-  border-radius: 12px;
-  padding: 25px;
+  border-radius: 14px;
+  padding: 28px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.step-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
 }
 
 .step-number {
@@ -196,6 +207,7 @@ export default {
   border-radius: 50%;
   line-height: 40px;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .cta-section {

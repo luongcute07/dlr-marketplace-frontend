@@ -3,3 +3,4 @@
   <router-view />
   <UserFooter />
 </template>
+

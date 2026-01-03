@@ -4,84 +4,97 @@
       <div class="row">
         <!-- BRAND -->
         <div class="col-lg-4 col-md-6 mb-4">
-          <h5 class="fw-bold text-primary">DLR Marketplace</h5>
-          <p class="mt-3 text-muted">
-            Digital Learning Resource Marketplace – Nền tảng mua bán tài liệu học
-            tập số dành cho sinh viên và người đi làm, giúp tiếp cận tri thức
-            nhanh chóng, tiết kiệm và hiệu quả.
+          <h5 class="fw-bold text-primary">LearnBooks</h5>
+          <p class="mt-3">
+            LearnBooks là website giới thiệu và đánh giá sách chọn lọc dành cho
+            sinh viên, người đi làm và những ai yêu thích việc học tập suốt đời.
+            Chúng tôi giúp bạn tìm được cuốn sách phù hợp một cách nhanh chóng
+            và đáng tin cậy.
           </p>
         </div>
 
         <!-- QUICK LINKS -->
         <div class="col-lg-2 col-md-6 mb-4">
-          <h6 class="fw-bold">Liên kết nhanh</h6>
+          <h6 class="fw-bold">Khám phá</h6>
           <ul class="list-unstyled mt-3">
             <li>
-              <router-link to="/" class="footer-link">Trang chủ</router-link>
+              <router-link to="/" class="footer-link">
+                Trang chủ
+              </router-link>
             </li>
             <li>
-              <router-link to="/documents" class="footer-link">Tài liệu</router-link>
+              <router-link to="/books/new" class="footer-link">
+                Sách mới
+              </router-link>
             </li>
             <li>
-              <router-link to="/documents/new" class="footer-link">Tài liệu mới</router-link>
+              <router-link to="/books/popular" class="footer-link">
+                Sách bán chạy
+              </router-link>
             </li>
             <li>
-              <router-link to="/documents/popular" class="footer-link">Bán chạy</router-link>
-            </li>
-            <li>
-              <router-link to="/about" class="footer-link">Giới thiệu</router-link>
+              <router-link to="/about" class="footer-link">
+                Giới thiệu
+              </router-link>
             </li>
           </ul>
         </div>
 
-        <!-- SUPPORT -->
+        <!-- CATEGORIES -->
         <div class="col-lg-3 col-md-6 mb-4">
-          <h6 class="fw-bold">Hỗ trợ</h6>
+          <h6 class="fw-bold">Danh mục sách</h6>
           <ul class="list-unstyled mt-3">
             <li>
-              <a href="#" class="footer-link">Câu hỏi thường gặp (FAQ)</a>
+              <router-link to="/category/programming" class="footer-link">
+                Lập trình
+              </router-link>
             </li>
             <li>
-              <a href="#" class="footer-link">Hướng dẫn mua tài liệu</a>
+              <router-link to="/category/design" class="footer-link">
+                Thiết kế
+              </router-link>
             </li>
             <li>
-              <a href="#" class="footer-link">Điều khoản sử dụng</a>
+              <router-link to="/category/marketing" class="footer-link">
+                Marketing
+              </router-link>
             </li>
             <li>
-              <a href="#" class="footer-link">Chính sách bảo mật</a>
+              <router-link to="/category/language" class="footer-link">
+                Ngoại ngữ
+              </router-link>
             </li>
           </ul>
         </div>
 
-        <!-- CONTACT -->
+        <!-- CONTACT & DISCLAIMER -->
         <div class="col-lg-3 col-md-6 mb-4">
           <h6 class="fw-bold">Liên hệ</h6>
-          <div class="mt-3 text-muted">
+          <div class="mt-3 ">
             <p class="mb-2">
               <i class="bi bi-envelope me-2"></i>
-              support@dlrmarketplace.com
+              contact@learnbooks.vn
             </p>
-            <p class="mb-2">
-              <i class="bi bi-telephone me-2"></i>
-              0123 456 789
-            </p>
-            <p class="mb-3">
-              <i class="bi bi-geo-alt me-2"></i>
-              Việt Nam
+
+            <p class="mb-3 small">
+              <strong>Lưu ý:</strong> Một số liên kết trên website có thể là
+              liên kết tiếp thị liên kết (affiliate). Khi bạn mua sách thông qua
+              các liên kết này, chúng tôi có thể nhận được hoa hồng mà không làm
+              tăng chi phí của bạn.
             </p>
 
             <!-- SOCIAL -->
             <div class="d-flex gap-3">
-              <a href="#" class="social-icon">
+              <a href="#" class="social-icon" title="Facebook">
                 <i class="bi bi-facebook"></i>
               </a>
-              <a href="#" class="social-icon">
+              <a href="#" class="social-icon" title="YouTube">
                 <i class="bi bi-youtube"></i>
               </a>
-              <a href="#" class="social-icon">
+              <a href="#" class="social-icon" title="TikTok">
                 <i class="bi bi-tiktok"></i>
               </a>
-              <a href="#" class="social-icon">
+              <a href="#" class="social-icon" title="GitHub">
                 <i class="bi bi-github"></i>
               </a>
             </div>
@@ -93,8 +106,8 @@
 
       <!-- COPYRIGHT -->
       <div class="text-center pb-3">
-        <small class="text-muted">
-          © 2026 DLR Marketplace. All rights reserved.
+        <small class="fs-5">
+          © 2026 LearnBooks. All rights reserved.
         </small>
       </div>
     </div>
