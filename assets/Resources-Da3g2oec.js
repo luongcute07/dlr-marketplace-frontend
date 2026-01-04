@@ -1,0 +1,1 @@
+import{_ as o,c as r,a as s,o as c}from"./index-Cnc8Ex2_.js";const a={},n={class:"admin-resources"};function t(d,e){return c(),r("div",n,[...e[0]||(e[0]=[s("h1",null,"Resources",-1),s("p",null,"Manage resources here.",-1)])])}const l=o(a,[["render",t],["__scopeId","data-v-259ddb2f"]]);export{l as default};

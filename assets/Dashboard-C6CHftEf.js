@@ -1,0 +1,1 @@
+import{_ as o,c as s,a as e,o as t}from"./index-Cnc8Ex2_.js";const n={},r={class:"admin-dashboard"};function d(c,a){return t(),s("div",r,[...a[0]||(a[0]=[e("h1",null,"Admin Dashboard",-1),e("p",null,"Welcome to the admin area.",-1)])])}const l=o(n,[["render",d],["__scopeId","data-v-9212b015"]]);export{l as default};
